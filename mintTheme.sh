@@ -7,7 +7,7 @@ sudo mv mint-y-icons/usr/share/icons/Mint-Y /usr/share/icons/
 #Grab the background and start menu icon repository
 git clone https://github.com/jonythegamer/Linux-mint-backgrounds.git
 cd Linux-mint-backgrounds/Linux\ mint\ themes
-sudo cp -r linuxmint* /usr/share/backgrounds
+cp -r linuxmint* ~/Pictures/backgrounds/linuxmint
 cd ~/Pictures
 mkdir Icons && cd Icons
 mkdir Linux\ mint && cd Linux\ mint
